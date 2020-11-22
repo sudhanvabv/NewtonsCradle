@@ -8,7 +8,7 @@ class Rope{
             bodyA: body1,
             bodyB: body2,
 
-            pointB: {x:this.offsetX.offsetX , y:this.offsetY}
+            pointB: {x:this.offsetX , y:this.offsetY}
         }
 
         this.rope = Matter.Constraint.create(op)
